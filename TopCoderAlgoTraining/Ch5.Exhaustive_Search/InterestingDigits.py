@@ -18,4 +18,9 @@ for n in range(2, base):
         ans.append(n)
 
 print(ans)
-                
+
+'''
+Explain
+1. 3자리 이하라는 조건이 있으니 3자리 이하의 base진법 수를 모두 구함
+2. 구해진 수가 n의 배수이지만((k1*base*base + k2*base + k3) %n ==0) 각 자리의 합이 n의 배수가 아니라면 okFlag를 False로 셋팅함
+'''
